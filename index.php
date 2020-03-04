@@ -2,7 +2,7 @@
 // common.php is a db connection file
 require 'includes/common.php';
 if (isset($_SESSION['email'])) {   
-    header('location: ../Final Project/pages/home.php'); 
+    header('location: ../Expense-Manager/pages/home.php'); 
 } 
 
 ?>
