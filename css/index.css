@@ -1,0 +1,113 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    padding-top:100px;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+#content{
+    min-height: 500px;
+}
+
+#banner_image{
+	padding-top: 75px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: #f8f8f8;
+	background:url(../img/intro-bg_1.jpg)no-repeat center ;
+	background-size: cover;
+}
+.inner-banner-image{
+	 padding-top: 12%;     
+	 width:80%;     
+	 margin:auto; 
+}
+#banner_content{
+	position: relative;
+	padding-top: 6%;
+	padding-bottom: 6%;
+	margin-top: 12%;
+	margin-bottom: 12%;
+	background-color: rgba(0,0,0,0.7);
+	max-width: 660px;
+	font-size: 22px;
+}
+footer {
+	padding: 10px 0;
+	background-color: #101010;
+	color: #9d9d9d;
+	bottom: -10;
+	width:100%;
+}
+.row_style{
+	margin-top: auto;
+	padding-top: 100px;
+}
+.btn{
+	font-size: 25px;
+}
+.button{
+	padding-left: 0px;
+}
+.icon{
+	
+}
+#content{
+	min-height: 600px;
+}
+.btn-style {
+	background-color: rgb(102,205,170);	
+}
+.abt-style{
+	padding-bottom:183px;
+}
+.new-plan{
+	bottom:0;
+	right: 0;
+	text-decoration: none;
+}
+.box{
+	width: 240px;
+	height: 160px;
+	border: 1px solid;
+	background-color: white;
+	text-align: center;
+	padding-top: 60px;
+	
+}
+/*.glyphicon.glyphicon-plus-sign {
+    font-size: 50px;
+}*/
+.box-position{
+	padding-top: 20px;
+}
+.panel-default > .panel-heading-custom2{
+  background-image: none;
+  background-color: rgb(0,139,139);
+  color: #ffffff;
+}
+.button {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color:  rgb(0,139,139);/* Green */
+  color: white;
+}
+.date-style{
+	width: 50px;
+}
